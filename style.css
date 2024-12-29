@@ -10,11 +10,11 @@
 
 
 :root {
-    --cor1: #82FFB8;
-    --cor2: #36FF8D;
-    --cor3: #2BCC71;
-    --cor4: #1B8046;
-    --cor5: #41805C;
+    --cor1: rgb(197, 235, 214);
+    --cor2: rgb(74, 238, 148);
+    --cor3: rgb(63, 208, 128);
+    --cor4: rgb(47, 168, 102);
+    --cor5: rgb(5, 109, 52);
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', serif;
@@ -85,7 +85,7 @@ nav > a {
 
 nav > a:hover {
     background-color: var(--cor3);
-    color: var(--cor4);
+    color: var(--cor5);
 }
 
 main {
@@ -199,6 +199,7 @@ aside > ul {
 footer {
     background-color: var(--cor4);
     color: white;
+    font-size: 14px;
     text-align: center;
     padding: 5px;
 }
